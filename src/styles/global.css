@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+
+
+  /* Font Families */
+  --font-sans: "Montserrat", sans-serif;
+
+  /* Colors */
+  --color-icblue: #3ab3bf;
+  --color-darkgray: #333333;
+  --color-cgreen: #009E41;
+  --color-clgray: #4A4A4A;
+  --color-clightgray: #EEEEEE;
+  --color-clpurple: #3B4197;
+  --color-lightblue: #add8e6;
+  --color-lightcoral: #f08080;
+  --color-lightcyan: #e0ffff;
+  --color-lightgoldenrodyellow: #fafad2;
+  --color-lightgreen: #90ee90;
+  --color-lightpink: #ffb6c1;
+  --color-lightsalmon: #ffa07a;
+  --color-lightseagreen: #20b2aa;
+  --color-lightskyblue: #87cefa;
+  --color-lightsteelblue: #b0c4de;
+  --color-darkblue: #003366;
+  --color-crimson: #dc143c;
+  --color-olive: #808000;
+  --color-darkorange: #ff8c00;
+  --color-gold: #ffd700;
+  --color-mediumvioletred: #c71585;
+}
+
+
+.swiper-pagination-bullet.custom-dot {
+    display: inline-flex;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 0; /* Square shape */
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.swiper-slide {
+  @apply !h-auto;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #009E41;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  color:white;
+}
+
+.carousel-movies .swiper-wrapper{
+  @apply mb-12
+}
+.root-container {
+  @apply h-screen w-screen flex flex-col bg-gray-100 text-gray-900 font-sans overflow-auto;
+} 
