@@ -1,5 +1,4 @@
 import React from 'react';
-import Icon from '../Common/Icon'; 
 import MenuItem from './MenuItem';
 import menu from './menu';
 import SocialNetworks from '../Common/SocialNetworks';
