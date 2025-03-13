@@ -25,10 +25,10 @@ const HomePage: React.FC = () => {
         imageUrl={isMobile() ? hero4Mobile : hero4 }
         gradientDirection="right-to-left" 
         elements={[
-          <a className=' cursor-pointer text-white text-left font-semibold text-xs md:text-2xl'>Catálogo</a>,
-          <a className='text-white cursor-pointer  text-left font-semibold text-xs md:text-2xl'>CINELAB</a>,
-          <a className=' text-white cursor-pointer  font-semibold text-base md:text-2xl'>Boletín "Fuera de Campo"</a>,
-          <a className=' text-white cursor-pointer  font-semibold text-base md:text-2xl'>Cine desde Nuestros Pueblos</a>
+          <a href='https://youtu.be/Eh0hmQHX488' className=' cursor-pointer text-white text-left font-semibold text-xs md:text-2xl'>Catálogo</a>,
+          <a href='https://youtu.be/Eh0hmQHX488' className='text-white cursor-pointer  text-left font-semibold text-xs md:text-2xl'>CINELAB</a>,
+          <a href='https://drive.google.com/file/d/15xH20p8hF_UH2GPNFllKjTZ3j6DIr_Js/view?usp=drive_link' className=' text-white cursor-pointer  font-semibold text-base md:text-2xl'>Logros IHCINE</a>,
+          <a href='https://youtu.be/yjY3qSVcAmk' className=' text-white cursor-pointer  font-semibold text-base md:text-2xl'>Cine desde Nuestros Pueblos</a>
         ]}
       />
     </Layout>

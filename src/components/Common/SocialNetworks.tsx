@@ -12,11 +12,11 @@ const SocialNetworks: React.FC<SocialNetworksProps> = ({
 }) => {
   return (
     <div className={`${className}`}>
-      <a href="https://facebook.com" className="rounded-sm" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/share/161syUwHah/" className="rounded-sm" target="_blank" rel="noopener noreferrer">
        <FaFacebookSquare color="#4A4A4A" size={iconsWidth} />
       </a>
 
-      <a href="https://instagram.com" className="rounded-xs" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.instagram.com/ihcine.hn?igsh=dHlwbDRsamF6M2M1" className="rounded-xs" target="_blank" rel="noopener noreferrer">
       <FaInstagramSquare color="#4A4A4A" size={iconsWidth} />
       </a>
     </div>

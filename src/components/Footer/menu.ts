@@ -1,10 +1,10 @@
 import { MenuItemDef } from "../../interfaces/menuItemDef";
 
 const _menu: Array<MenuItemDef> = [
-    { label: "Catálogo", link: "/proyectos" },
-    { label: "CINELAB", link: "/eventos" },
-    { label: `Boletín "Fuera de Campo"`, link: "/logs" },
-    { label: "Cine desde Nuestros Pueblos", link: "/logs" },
+    { label: "Catálogo", full: true,  link: "https://youtu.be/Eh0hmQHX488" },
+    { label: "CINELAB", full: true,link: "https://youtu.be/Eh0hmQHX488" },
+    { label: `Boletín "Fuera de Campo"`, full: true, link: "https://drive.google.com/file/d/15xH20p8hF_UH2GPNFllKjTZ3j6DIr_Js/view?usp=drive_link" },
+    { label: "Cine desde Nuestros Pueblos", full: true,link: "https://youtu.be/yjY3qSVcAmk" },
   ];
   
   const menu = _menu.map((item, index) => ({
