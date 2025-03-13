@@ -17,10 +17,10 @@ const CarouselHero: React.FC<CarouselProps> = ({ items }) => {
         slidesPerView={1}
         rewind={true}
         navigation={false}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 6000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
           renderBullet: (index, className) => {

@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
     <Layout>
       <span className='pt-12 mb-12'>
           </span>
-      <div className='h-8'></div>
+      <div></div>
       <CarouselHero items={carouselHeroData}/>
       <Headline text='Work in' text2='Progress'/>
       <CarouselMovies items={carouselMoviesData} />
