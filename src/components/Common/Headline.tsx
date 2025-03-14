@@ -13,15 +13,15 @@ const Headline: React.FC<HeadlineProps> = ({
   textColor
 }) => {
   return (
-    <div className="flex items-center my-8">
-      <div className="w-full md:w-2/3 xl:w-2/3 border-l-4 border-cgreen pl-4 h-full">
+    <div className="flex items-center mb-4 mt-16">
+      <div className="w-full md:w-2/3 xl:w-2/3 border-l-4 border-icred pl-4 h-full">
         <span
-          className={`w-full text-${textColor} font-bold text-2xl l:text-2xl xxl:4xl`}
+          className={`w-full text-${textColor} font-bold text-2xl lg:text-3xl xxl:4xl`}
         >
           {text}
         </span>
         <span
-          className={`pl-2 w-full text-icblue font-bold text-2xl l:text-2xl xxl:4xl`}
+          className={`pl-2 w-full text-icblue font-bold text-2xl lg:text-3xl xxl:4xl`}
         >
           {text2}
         </span>

@@ -77,8 +77,8 @@ import { isMobile } from "../../utils/device";
     {
       id: 2,
       image: { url: isMobile() ? hero2_mobile : hero2 },
-      title: "Cinelab",
-      title2: "",
+      title: "",
+      title2: "Cinelab",
       subtitle: `Espacio de encuentro para cineastas con proyectos en desarrollo donde reciben asesorías y
        capacitación técnica por parte de connotados cineastas del ambiente nacional e internacional`,
       url: "url",
