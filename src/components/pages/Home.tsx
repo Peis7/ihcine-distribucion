@@ -5,7 +5,7 @@ import Headline from '../Common/Headline';
 import CarouselMovies from '../Common/CarouselMovies';
 import CarouselHero from '../Common/CarouselHero';
 import { isMobile } from '../../utils/device';
-import { carouselHeroData, carouselMoviesData } from './data';
+import { carouselHeroData, randomizedCarouselMoviesData } from './data';
 const hero4 = "/images/playa_film.jpg";
 
 const hero4Mobile = "/images/playa_crew_mobile.jpg";
@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
       <div></div>
       <CarouselHero items={carouselHeroData}/>
       <Headline text='Work in' text2='Progress'/>
-      <CarouselMovies items={carouselMoviesData} />
+      <CarouselMovies items={randomizedCarouselMoviesData} />
       <HeroBanner
         imageUrl={isMobile() ? hero4Mobile : hero4 }
         gradientDirection="right-to-left" 

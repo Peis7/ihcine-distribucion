@@ -21,40 +21,40 @@ import { isMobile } from "../../utils/device";
     {
       id: 1,
       image: { url: peli1  },
-      title: "Hola",
-      subtitle: "Mundo",
+      title: "Eva",
+      subtitle: "Eva",
       url: "url",
       credits: "",
     },
     {
       id:2,
       image: { url: peli2 },
-      title: "Hola",
-      subtitle: "Mundo",
+      title: "Alla donde nace el sol",
+      subtitle: "Alla donde nace el sol",
       url: "url",
       credits: "",
     },
     {
       id: 3,
       image: { url: peli3 },
-      title: "Hola",
-      subtitle: "Mundo",
+      title: "Home Deus",
+      subtitle: "Home Deus",
       url: "url",
       credits: "",
     },
     {
       id: 4,
       image: { url: peli4},
-      title: "Hola",
-      subtitle: "Mundo",
+      title: "Whitney",
+      subtitle: "Whitney",
       url: "url",
       credits: "",
     },
     {
       id: 5,
       image: { url: peli5 },
-      title: "Hola",
-      subtitle: "Mundo",
+      title: "Helena",
+      subtitle: "Helena",
       url: "url",
       credits: "",
     }
@@ -108,3 +108,11 @@ import { isMobile } from "../../utils/device";
       credits: "",
     },]
 
+
+    const shuffleArray = (array: CarouselItem[]): CarouselItem[] => {
+      return array.sort(() => Math.random() - 0.5);
+    };
+    
+    const randomizedCarouselMoviesData = shuffleArray(carouselMoviesData);
+
+    export { randomizedCarouselMoviesData };
