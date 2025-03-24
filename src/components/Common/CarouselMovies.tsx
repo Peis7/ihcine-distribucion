@@ -41,11 +41,13 @@ const CarouselMovies: React.FC<CarouselProps> = ({ items }) => {
         {items.map((item) => (
           <SwiperSlide key={item.id}>
             <div className="carousel-item relative">
-              <img
-                src={`${item.image.url}`}
-                alt={item.title}
-                className="w-full h-full object-cover"
-              />
+              <a href={item.url}>
+                <img
+                  src={`${item.image.url}`}
+                  alt={item.title}
+                  className="w-full h-full object-cover"
+                />
+              </a>
             </div>
           </SwiperSlide>
         ))}

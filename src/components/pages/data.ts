@@ -23,7 +23,7 @@ import { isMobile } from "../../utils/device";
       image: { url: peli1  },
       title: "Eva",
       subtitle: "Eva",
-      url: "url",
+      url: "https://www.youtube.com/watch?v=Q4ODYc6eddM",
       credits: "",
     },
     {
@@ -31,7 +31,7 @@ import { isMobile } from "../../utils/device";
       image: { url: peli2 },
       title: "Alla donde nace el sol",
       subtitle: "Alla donde nace el sol",
-      url: "url",
+      url: "https://drive.google.com/file/d/1-Act7Yr089GAf58Kog0WvJxGPs0GkBZV/view",
       credits: "",
     },
     {
@@ -39,7 +39,7 @@ import { isMobile } from "../../utils/device";
       image: { url: peli3 },
       title: "Home Deus",
       subtitle: "Home Deus",
-      url: "url",
+      url: "https://drive.google.com/file/d/1WpXZm6H_fJxk4suS0SlpkKhv-b7el-UV/view",
       credits: "",
     },
     {
@@ -47,7 +47,7 @@ import { isMobile } from "../../utils/device";
       image: { url: peli4},
       title: "Whitney",
       subtitle: "Whitney",
-      url: "url",
+      url: "https://drive.google.com/file/d/1HA1pPCOcAJXOiLKcjzr6Y6wCCAVVAHbI/view",
       credits: "",
     },
     {
@@ -55,7 +55,7 @@ import { isMobile } from "../../utils/device";
       image: { url: peli5 },
       title: "Helena",
       subtitle: "Helena",
-      url: "url",
+      url: "https://www.youtube.com/watch?v=Wy25_N60cZk",
       credits: "",
     }
 

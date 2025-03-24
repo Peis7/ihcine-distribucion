@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
         imageUrl={isMobile() ? hero4Mobile : hero4 }
         gradientDirection="right-to-left" 
         elements={[
-          <a href='https://drive.google.com/file/d/1UfIxY_A0_zx_er6BDUaKJz5yywc5OZ5T/view?usp=drive_link' 
+          <a href='/pdf/catalogo_ihcine.pdf' 
               className=' cursor-pointer text-white text-left font-semibold text-lg md:text-2xl'
               target="_blank"
                 rel="noopener noreferrer"
